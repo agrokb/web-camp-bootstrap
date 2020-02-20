@@ -1,0 +1,175 @@
+
+body{
+    text-align: center;
+}
+
+
+h1,h2,h3,h4,h5,h6{ 
+    font-family:"Montserrat-Bold";
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Title Section */
+#title{
+    font-family: "Montserrat";
+    position: relative;
+    z-index: -2;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding:3% 15% 7%;
+}
+
+/* Heading */
+
+.big-heading{
+    font-family: "Montserrat-Black";
+    font-size: 4rem;
+    line-height: 1.5;
+    color:white;
+}
+
+.section-heading{
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+/* container */
+
+.container-fluid{
+    padding:7% 15%;
+}
+
+/* Navar */
+
+nav.navbar{
+    padding-left:0px;
+}
+
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+
+.nav-item{
+    padding:18px;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-family:"Montserrat-Light";
+}
+
+/* Color */
+.colored-background{
+    background-color: #ff4c68;
+}
+.white-background{
+    background-color: #fff;
+}
+
+/*Download Buttons */
+/* top right bottom left*/
+.download-button{
+    margin:2%
+}
+
+.title-image{
+    width:60%;
+    transform:rotate(25deg);
+    position: absolute;
+    z-index: -1;
+    right:30%;
+}
+
+/* Features */
+#features{
+    z-index:1;
+    position: relative;
+}
+
+.feature-title{
+    font-size:1.5rem;
+}
+
+
+.features-item{
+    padding: 5%;  
+}
+
+.features-icon{
+    font-size: 54px;
+    padding-bottom:1%;
+    color:#ef8172;
+}
+
+.features-icon:hover{
+    color:#ff4c68;
+}
+
+.features-item p{
+    color:#8f8f8f; 
+}
+
+/* Testimonial Section */
+
+.testimonials-color{
+    background-color: #ef8172;
+    color:#fff;
+}
+
+.testimonials-text{
+    font-size:3rem;
+    line-height:1.5;
+}
+
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+/* top right-left bottom */
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+
+
+/*Pricing Section*/
+
+.price-text{
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+.pricing-column p{
+    color:#8f8f8f;
+}
+
+@media (max-width:1028px){
+    .title-image{
+        text-align: center;
+        position: static;
+        transform: rotate(0);       
+    }
+}
+
+/* Call to Action */
+
+/* Footer  */
+
+.footer-icon{
+    padding:3% 1%; 
+}
